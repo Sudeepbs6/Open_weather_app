@@ -1,8 +1,7 @@
                                                        Weather APP
 A modern Android weather application that allows users to check weather conditions for US cities. The app uses the OpenWeatherMap API to fetch real-time weather data and supports both manual city search and location-based weather information.
 
-🧐 Features
-Here're some of the project's best features:
+    Here're some of the project's best features:
 
 Search weather by US city name
 Auto-location detection (with user permission)
