@@ -1,24 +1,45 @@
-                                                       Weather APP
-A modern Android weather application that allows users to check weather conditions for US cities. The app uses the OpenWeatherMap API to fetch real-time weather data and supports both manual city search and location-based weather information.
+# Weather App
 
-    Here're some of the project's best features:
+A modern Android weather application using OpenWeatherMap API for real-time weather data.
 
-Search weather by US city name
-Auto-location detection (with user permission)
-Last searched city auto-load
-Real-time weather conditions display
-Weather icon visualization
-Offline support with data caching
-🛠️ Installation Steps:
-1. clone
+## Features
+- US city weather search
+- Auto-location detection  
+- Last searched city auto-load
+- Real-time weather display
+- Weather icons
+- Offline support
 
-Clone it into your local and run the application
-🍰 Contribution Guidelines:
-💻 Built with
-Technologies used in the project:
+## Tech Stack
+- Kotlin & Java
+- MVVM Architecture
+- Retrofit
+- JUnit
+- Jetpack Compose
+- Kotlin Coroutines  
+- Hilt
+- Jetpack Navigation
+- Room Database
+- Mockito
 
-Kotlin
-Java
-MVVM Architecture
-Retrofit
-JUnit
+## Setup
+1. Clone repository
+2. Get API key from OpenWeatherMap
+3. Add to local.properties:
+```bash
+WEATHER_API_KEY=your_api_key_here
+
+##Architecture
+
+app/
+├─ data/
+│  ├─ remote/
+│  ├─ local/
+│  └─ repository/
+├─ domain/
+│  ├─ model/
+│  └─ usecase/
+├─ presentation/
+│  ├─ ui/
+│  └─ viewmodel/
+└─ di/
